@@ -2,15 +2,16 @@
   "name": "biaoyu-sql-tool",
   "version": "1.0.0",
   "description": "表语SQL",
-  "main": "server.js",
+  "main": "server/index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node server.js",
-    "dev": "vite",
-    "dev:db": "node server.js",
+    "start": "node server/index.js",
+    "dev": "node server/index.js",
+    "dev:db": "node server/index.js",
     "create-db": "node scripts/create-database.js",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "cd client && npm install && npm run build",
+    "preview": "cd client && npm run preview",
+    "vercel-build": "cd client && npm install && npm run build"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.2.0",

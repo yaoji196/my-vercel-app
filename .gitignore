@@ -8,9 +8,13 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+client/node_modules/
+server/node_modules/
+server/build/
 .DS_Store
 dist
 dist-ssr
+client/dist/
 coverage
 *.local
 
@@ -37,3 +41,14 @@ __screenshots__/
 
 test-results/
 playwright-report/
+
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
+# 系统文件
+Thumbs.db
