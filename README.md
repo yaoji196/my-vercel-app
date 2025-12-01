@@ -70,4 +70,5 @@ npm run test:e2e -- --debug
 
 ```sh
 npm run lint
+Last auto-deploy trigger: 2025-12-01T00:00:00+08:00
 ```
